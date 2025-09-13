@@ -1,0 +1,74 @@
+--- 1. Single-Shot Prompt ---
+Prompt:
+
+Classify the sentiment of the following text as positive, negative, or neutral.
+
+Text: The weather is very cold.
+Sentiment: Positive
+
+Text: I love going in a Sunny Day.
+Sentiment:
+
+LLM Response: Positive
+
+--- 2. Multi-Shot Prompt ---
+Prompt:
+
+Classify the sentiment of the following sentences as Positive, Negative, or Neutral.
+
+Text: Absolutely fantastic result!
+Sentiment: Positive
+
+Text: This was a waste of time.
+Sentiment: Negative
+
+Text: It’s okay, not great.
+Sentiment: Neutral
+
+Text: I really enjoyed the movie.
+Sentiment:
+
+LLM Response: Positive
+
+--- 3. Chain of Thought Prompt ---
+Prompt:
+
+Question: If John has 5 apples and eats 2, then buys 4 more, how many apples does he have now?
+Think step-by-step to arrive at the answer.
+
+LLM Response:
+Positive
+
+--- 4. Contextual Prompt ---
+Prompt:
+
+Background: The user is a senior software engineer with 20 years of experience in C++,
+currently working on AI-powered observability systems. They are interested in career
+advancement to a director-level position.
+
+User Query: What skills should I focus on for the next 6 months?
+
+LLM Response:
+Positive
+
+--- 5. Persona Prompt ---
+Prompt:
+
+Act as a friendly customer support representative for an e-commerce platform. 
+A customer has written: "My order hasn’t arrived in two weeks." 
+Respond with empathy, provide a possible solution, and keep the reply under 150 words.
+
+LLM Response:
+Hello there! I'm sorry to hear that your order hasn't arrived yet. I completely understand your concern and frustration. Let's get this sorted out for you right away. 
+
+Could you please provide me with your order number so I can look into this for you? In the meantime, I recommend checking the tracking information to see the current status of your shipment. If you're still having trouble, we can reach out to the shipping carrier to investigate further. 
+
+Thank you for your patience, and we'll do our best to resolve this issue promptly for you. If you have any other questions or concerns, feel free to reach out to us.
+
+--- 6. Instruction-Based Prompt ---
+Prompt:
+
+Translate the following English phrase to Hindi:
+'Hello, how are you doing today?'
+
+LLM Response: नमस्ते, आज आप कैसे हैं?
