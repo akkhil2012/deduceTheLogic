@@ -1,0 +1,28 @@
+Query: How do banks use savings accounts?
+- Retrieved contexts (top-2):
+  1. chunk=doc1  sim=0.800
+  2. chunk=doc2  sim=0.377
+
+Answer:
+ to fund loans
+================================================================================
+Query: What is the role of machine learning in fraud detection?
+- Retrieved contexts (top-2):
+  1. chunk=doc3  sim=0.680
+  2. chunk=doc4  sim=0.245
+
+Answer:
+ Machine learning models can be applied in fraud detection by identifying unusual transaction patterns
+================================================================================
+Query: Why is blockchain considered secure?
+- Retrieved contexts (top-2):
+  1. chunk=doc4  sim=0.531
+  2. chunk=doc1  sim=0.165
+
+Answer:
+ transparency, immutability, and security without central authority
+================================================================================
+Query: What are the benefits of credit cards?
+- Retrieved contexts (top-2):
+  1. chunk=doc2  sim=0.652
+  2. chunk=doc1  sim=0.297
