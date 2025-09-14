@@ -1,0 +1,54 @@
+Foundation Models: web crawled and old data, toxic content; uses transformer architecture
+Filtering techniques? Language distribution is uneven; and miss other language as most are in english
+Domain and language specific data are more.
+Less training but more of adaptation
+Self Supervision: prediction based on input data; addressed data labeling issue.
+Foundational Models:
+ Limited to trained on data ; mostly based on web crawl
+Filtering technique??
+
+During inference; transformers works into 2 steps:
+   Prefill: Process all input tokens in parallel to create intermediate state
+   Decode:Generate one Output token at a time
+
+It has 3 Vectors:
+Query(Q): Represents the information model looking for
+Key: Index to previous token 
+Value: Value to previous token
+
+The importance of the input token is compared based on the value of Q and K; where in high similarity between two means Value V will have more impact on output:
+This is the reason for longer context windows being expensive as had to calculate lot of K and Q
+
+Transformer is multi heads means ; multiple tokens can be focused simultaneously
+LLMab: has 32 attention heads? .. means?
+It has number of blocks called layer and each has encoder, decoder and output as token probability
+
+Another Architecture: RNN + parallel capabilities ⇒ RWKV
+Receptance Weighted Key Value (RWKV) 
+
+Model Size:
+  A bigger model means more parameters; These parameters helps to compute the resources needed for training and inference as well.
+Large Sparse Models: Chinchilla Scaling Law
+
+Training Data
+Electricity
+
+Pre Trained Foundation Models: Has following bottlenecks:
+Optimized for text completion and NOT for Conversation
+Output can be ethically incorrect
+ 
+Supervised fine tuning is solution and needs the instruction data..
+
+Evaluations:
+  Mathematical proof not easy and 
+  Multiple valid outputs
+Publicly available benchmarks turns invalid soon.
+
+Cross Entropy or Perplexity:
+Models evaluation during training
+
+Entropy: How much information a token carries on an average and higher the entropy means more UNpredicatble.
+Models should learn distribution of training data well for better result.
+For perfectly trained model data ; the entropy would be the same for training and testing data.
+Perplexity is exponential to entropy and finds the lower value means better the model
+SoftMax???
