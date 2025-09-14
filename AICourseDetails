@@ -1,0 +1,177 @@
+Machine Learning and Gen AI Course( Span of 1 Month)
+
+1.Core ML: Bias, Variance, Over fitting, Underfitting , Model Evaluation ,Gradient Descent and Optimization , Basics of Neural Networks (perceptrons, activation functions, backpropagation),Types of Machine Learning (Supervised, Unsupervised, Reinforcement)
+
+Project:
+    Train a simple classifier on MNIST (digits dataset)
+    Build a small feedforward neural network in PyTorch or TensorFlow
+
+Statistical Machine Learning VS GenAI? When to prefer former on later?
+
+
+2.Deep Learning:
+    Feedforward Neural Networks
+    Convolutional Neural Networks (CNNs)
+    Recurrent Neural Networks (RNNs), LSTMs, GRUs
+
+Practice Projects
+   Build a CNN for image classification (CIFAR-10 dataset)
+   Implement a simple attention mechanism from scratch
+
+
+3.GenAI Models:
+    Autoencoders & Variational Autoencoders (VAEs)
+    Generative Adversarial Networks (GANs)
+    Diffusion Models (e.g., Stable Diffusion)
+Autoregressive models excel in generative tasks, while masked models are better suited for understanding and classification tasks
+During training, these embeddings are finetuned to capture task-specific nuances, enhancing the model’s performance on various language tasks
+
+Catastrophic forgetting in LLM: How to mitigate?
+  Elastic Weight Consolidation , Rehearsal Methods, Modular Approach
+PEFT- Parameter Efficient Fine  Tuning: keeps other parameters frozen
+
+Projects:
+    Build a VAE to generate handwritten digits
+   Train a small GAN to generate synthetic images
+   Use Hugging Face Transformers to generate text
+
+
+
+
+4. Transformer Architecture: 
+    Addressed the sequence to sequence model architecture representation
+     Encoder and decoder works sequentially token by token
+     Also slow as encoding and decoding is sequential
+  Encoder had access to only compressed form of data
+
+In transformer: 
+   Attention-Mechanism, 
+   Weigh the importance of different input tokens while generating output tokens
+
+
+   
+
+Self Attention, Query,(key, values), Embeddings
+Tokenization and Positional Embeddings
+
+
+
+Decoder Vs Encoder Architecture: Why Encoder dominates
+Multi Model Architecture
+
+5. Prompt and Context Engineering:
+   Guard Rails
+   Pretraining vs. Fine-tuning
+   Few-shot, Zero-shot, and Chain-of-Thought prompting
+
+
+
+
+6. Tools and FrameWorks:
+   Prompting Tools: LangChain, LlamaIndex
+   LLM APIs: OpenAI, Hugging Face Transformers, Cohere, Anthropic Claude
+Types of Generative Media
+Text Generation
+Image Generation
+Audio Generation
+Video Generation
+Model Selection Criteria
+Task-specific requirements
+Performance vs. cost trade-offs
+Latency requirements
+Customization needs
+Playground Experimentation
+Model comparison techniques
+Tokenization understanding
+Performance benchmarking
+Cost optimization strategies
+
+
+7. Sampling Strategies: top-k, top-p(smallest set of tokens whose cumulative value is p), Temperature(high means more unpredictable)
+Context Window and Context Window Waste: 
+    Managing Context length and Memory( Summarization, Chunking, Attention Strategy)
+
+Fine Tuning Models: LoRA, QLoRA, PERFT(Low Risk Adaption)
+Reinforcement Learning with Human Feedback (RLHF): preference finetuning
+  Latest is DPO: Direct preferences optimization
+Proprietary and Open Source Models
+LLMs and Small Specialized Models
+Evaluation Frameworks: ROUGE, Perplexity
+RAG: Articulate Embeddings and Similarity Search
+Compare Vector DB: PineCone and CromaDB: Hybrid Retrieval and native Setup
+Caching and Batching for Latency Improvement
+
+8. Multi-agent AI systems and orchestration
+Agents and API tools: Safe Functional Calling , API Orchestration
+Inference Scaling
+Inference: Real-time processing, latency, cost considerations
+
+Self-training Foundational Models
+Agentic AI
+
+
+9.Risks and Integrity: 
+   Bias and Hallucinations
+   Prompt Engineering Attacks
+   Ethical and Governance Protocol
+   Compliance for Production Deployment
+
+10.MLOps: 
+    Kubernetes, Docker, FastAPI
+    Building AI APIs and microservices (FastAPI, Flask)
+    What Metrics to track in evaluation Pipeline
+    Monitoring Drift and Model Health
+    CI/CD for GenAi
+
+11.Scaling Products:
+   Distributed Inferences
+   Model Distillation: The label from simple models is used to train more complex model thus saving on computation cost.
+
+Out of Vacabulary(OOV) in LLM.
+
+
+
+Dot product in Self-attention:
+- In self-attention, the dot product is used to calculate the similarity between query (Q) and key (K) vectors
+
+Gradient of loss function? Formula?
+
+Attention Score: Mathematical interpretation
+
+12. Demo:
+Integrating with business workflows (n8n, Zapier)
+Monitoring & Observability for AI apps
+Cost optimization and scaling LLMs
+Legal & governance aspects of Generative AI
+Projects:
+Build a chatbot using GPT API or Hugging Face model
+Experiment with different prompting techniques
+Generate structured data (JSON, SQL queries) from natural language
+Build a PDF Q&A assistant with RAG + LLM
+Create an image generation web app with Stable Diffusion + Streamlit
+Experiment with text-to-speech & voice cloning
+Deploy an AI API with FastAPI + Docker
+Build a semantic search engine with ChromaDB or Weaviate
+Create a multi-agent workflow (e.g., one agent searches docs, another summarizes, another drafts an email)
+Led Generation using linkedIn; using n8n WorkFlow
+KnowledgeGraph with OpenAI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
