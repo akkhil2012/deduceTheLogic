@@ -1,0 +1,244 @@
+==================================================
+IMPUTATION COMPARISON
+==================================================
+
+=== Imputation Comparison: age ===
+Number of imputed values: 73
+
+Sample of changed values:
+     Original    Imputed  Changed
+4   18.000000  34.592375     True
+17  25.411174  34.592375     True
+21  28.190705  34.592375     True
+24  30.716722  34.592375     True
+40  42.432542  34.592375     True
+
+Imputation Statistics:
+  Mean change: -0.9531
+  Max change:  21.3393
+  Min change:  0.0796
+
+=== Imputation Comparison: income ===
+Number of imputed values: 74
+
+Sample of changed values:
+        Original       Imputed  Changed
+0   43561.591618  22122.853558     True
+10  10092.227211  22122.853558     True
+12  23149.737874  22122.853558     True
+13  21098.340648  22122.853558     True
+26  45593.606992  22122.853558     True
+
+Imputation Statistics:
+  Mean change: -2764.9888
+  Max change:  39228.8259
+  Min change:  36.7575
+
+=== Imputation Comparison: tenure_years ===
+Number of imputed values: 88
+
+Sample of changed values:
+    Original  Imputed  Changed
+17        13      9.0     True
+19         0      9.0     True
+25        15      9.0     True
+28        15      9.0     True
+29         4      9.0     True
+
+Imputation Statistics:
+  Mean change: -0.1818
+  Max change:  10.0000
+  Min change:  0.0000
+
+=== Imputation Comparison: city ===
+Number of imputed values: 70
+
+Sample of changed values:
+     Original Imputed  Changed
+3   Bengaluru    Pune     True
+14  Bengaluru    Pune     True
+20     Mumbai    Pune     True
+21  Bengaluru    Pune     True
+22      Delhi    Pune     True
+
+=== Imputation Comparison: segment ===
+Number of imputed values: 73
+
+Sample of changed values:
+      Original Imputed  Changed
+7   Enterprise  Retail     True
+15         SMB  Retail     True
+19         SMB  Retail     True
+38  Enterprise  Retail     True
+52         SMB  Retail     True
+
+=== SimpleImputer (median/mode) ===
+      RMSE[age]: 8.9445
+   RMSE[income]: 11777.8324
+RMSE[tenure_years]: 5.4041
+      ACC[city]: 0.2714
+   ACC[segment]: 0.3425
+
+==================================================
+IMPUTATION COMPARISON
+==================================================
+
+=== Imputation Comparison: age ===
+Number of imputed values: 73
+
+Sample of changed values:
+     Original    Imputed  Changed
+4   18.000000  37.771755     True
+17  25.411174  34.642901     True
+21  28.190705  34.836930     True
+24  30.716722  38.163563     True
+40  42.432542  37.113658     True
+
+Imputation Statistics:
+  Mean change: -1.3022
+  Max change:  46.0507
+  Min change:  0.5092
+
+=== Imputation Comparison: income ===
+Number of imputed values: 74
+
+Sample of changed values:
+        Original       Imputed  Changed
+0   43561.591618  38707.829559     True
+10  10092.227211  30963.234695     True
+12  23149.737874  26033.838760     True
+13  21098.340648  16324.627635     True
+26  45593.606992  55487.469889     True
+
+Imputation Statistics:
+  Mean change: 1752.8135
+  Max change:  45843.1884
+  Min change:  729.8642
+
+=== Imputation Comparison: tenure_years ===
+Number of imputed values: 88
+
+Sample of changed values:
+    Original    Imputed  Changed
+6          9   4.544495     True
+17        13   6.713962     True
+19         0  15.111578     True
+25        15  14.631882     True
+28        15  14.322659     True
+
+Imputation Statistics:
+  Mean change: 0.6789
+  Max change:  15.9072
+  Min change:  0.0000
+
+=== Imputation Comparison: city ===
+Number of imputed values: 70
+
+Sample of changed values:
+     Original Imputed  Changed
+3   Bengaluru    Pune     True
+14  Bengaluru    Pune     True
+20     Mumbai    Pune     True
+21  Bengaluru    Pune     True
+22      Delhi    Pune     True
+
+=== Imputation Comparison: segment ===
+Number of imputed values: 73
+
+Sample of changed values:
+      Original Imputed  Changed
+7   Enterprise  Retail     True
+15         SMB  Retail     True
+19         SMB  Retail     True
+38  Enterprise  Retail     True
+52         SMB  Retail     True
+
+=== KNNImputer (k=5) + mode for cats ===
+      RMSE[age]: 13.0115
+   RMSE[income]: 15184.3392
+RMSE[tenure_years]: 6.3889
+      ACC[city]: 0.2714
+   ACC[segment]: 0.3425
+
+==================================================
+IMPUTATION COMPARISON
+==================================================
+
+=== Imputation Comparison: age ===
+Number of imputed values: 73
+
+Sample of changed values:
+     Original    Imputed  Changed
+4   18.000000  35.842849     True
+17  25.411174  35.332157     True
+21  28.190705  35.403367     True
+24  30.716722  33.944579     True
+40  42.432542  35.627288     True
+
+Imputation Statistics:
+  Mean change: -0.5701
+  Max change:  21.9307
+  Min change:  0.0004
+
+=== Imputation Comparison: income ===
+Number of imputed values: 74
+
+Sample of changed values:
+        Original       Imputed  Changed
+0   43561.591618  24275.763173     True
+10  10092.227211  24084.538552     True
+12  23149.737874  24349.846631     True
+13  21098.340648  24007.539832     True
+26  45593.606992  24193.769706     True
+
+Imputation Statistics:
+  Mean change: -485.0058
+  Max change:  36671.0752
+  Min change:  425.2194
+
+=== Imputation Comparison: tenure_years ===
+Number of imputed values: 88
+
+Sample of changed values:
+    Original   Imputed  Changed
+6          9  9.217940     True
+17        13  9.284031     True
+19         0  9.245257     True
+25        15  9.281519     True
+28        15  9.273497     True
+
+Imputation Statistics:
+  Mean change: 0.0913
+  Max change:  9.7284
+  Min change:  0.2179
+
+=== Imputation Comparison: city ===
+Number of imputed values: 70
+
+Sample of changed values:
+     Original Imputed  Changed
+3   Bengaluru    Pune     True
+14  Bengaluru    Pune     True
+20     Mumbai    Pune     True
+21  Bengaluru    Pune     True
+22      Delhi    Pune     True
+
+=== Imputation Comparison: segment ===
+Number of imputed values: 73
+
+Sample of changed values:
+      Original Imputed  Changed
+7   Enterprise  Retail     True
+15         SMB  Retail     True
+19         SMB  Retail     True
+38  Enterprise  Retail     True
+52         SMB  Retail     True
+
+=== IterativeImputer + mode for cats ===
+      RMSE[age]: 8.9814
+   RMSE[income]: 11478.9842
+RMSE[tenure_years]: 5.3993
+      ACC[city]: 0.2714
+   ACC[segment]: 0.3425
+
+Transformed feature matrix shape (for modeling): (500, 9)
