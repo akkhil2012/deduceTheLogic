@@ -1,0 +1,2 @@
+Doc 1 <-> Doc 2 | Similarity: 0.789
+Doc 4 <-> Doc 5 | Similarity: 0.892
